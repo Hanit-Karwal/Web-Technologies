@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+<title>learning htm</title>
+</head>
+<body>
+<h1>This is a heading</h1>
+<br>
+<h2>This is a second heading</h2>
+<br>
+<img src="E:\downloads\gne.jpeg" alt="logo" width="300" height="300">
+<br>
+<p>Many novice writers tend to make a sharp distinction between content and style,
+thinking that a paper can be strong in one and weak in the other, 
+but focusing on organization shows how content and style converge in deliberative academic writing.</p>
+</body>
+</html>
