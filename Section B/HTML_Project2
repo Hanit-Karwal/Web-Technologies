@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>Links,Lists</title></head>
+<body>
+<h1>Students</h1>
+<p>This page will give you the list of students.</p>
+<ol>
+<li>Abraham</li>
+<li>Brent</li>
+<li>Caleb</li>
+<li>Gerald</li>
+<li>Hamish</li>
+<li>Jaden</li>
+<li>Liam</li>
+<li>Mike</li>
+<li>Prudence</li>
+<li>Rachel</li>
+<li>Xanderia</li>
+<li>Zane</li>
+</ol>
+<p><a href="file:///home/zeenat/Desktop/HTML/HTML_Project2-tables" target="_self">Click here</a> to see the details of the students.</p>
+</body>
+</html>
+

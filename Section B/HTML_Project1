@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML_Project1</title>
+</head>
+<body>
+<h1>HTML: Project 1</h1>
+<br><br>
+<h2>Flowers!</h2>
+<p> Flowers are pretty.<br> They come in different colors and shapes. </p>
+<img src="/home/zeenat/Pictures/flowers WALLPAPER/174776.jpg" alt="Pink Flowers" height="200" width="200">
+</body>
+</html>
+
