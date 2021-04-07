@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>HTML page</title>
+</head>
+<body>
+    <img src="gne.jpg" alt="GNDEC">
+    <h1> Welcome to GNDEC</h1>
+    <p> Guru Nanak Dev Engineering College, one of the prestigious, oldest and minority institution of Northern India, <br>
+        was established under the aegis of Nankana Sahib Education Trust (NSET) in 1956.</p>
+    <p>
+        The College was affiliated with Punjab University, Chandigarh since its inception. On establishment of Punjab Technical
+         University, Jalandhar, since 1997 the college is affiliated with it, which is now known as I.K.Gujral Punjab Technical 
+         University (IKGPTU).
+    </p>
+  
+</body>
+</html>
