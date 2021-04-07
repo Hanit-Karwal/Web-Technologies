@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Practical 1</title>
+ </head>
+<body style="background-color:rgb(240, 240, 240);;">
+
+  <h1 style="color:purple;font-size:300%"><b><ins>Guru Nanak Dev Engineering College</ins></b></h1>
+  <p style="font-family:Arial;font-size:100%;">Guru Nanak Dev Engineering College, one of the prestigious, oldest and minority institution of Northern India, was established under the aegis of Nankana Sahib Education Trust (NSET) in 1956. NSET was founded in memory of the most sacred temple of Nankana Sahib, birth place of Guru Nanak Dev Ji.</p>
+  
+<p style="font-family:Arial;font-size:100%;">Shiromani Gurudwara Prabandhak Committee, Amritsar, a premier organization of universal brotherhood, which is the main force behind the mission of "Removal of Economic Backwardness through Technology" and NSET with the same mission, established a Polytechnic in 1953 and Guru Nanak Dev Engineering College (GNDEC) in 1956.</p> 
+<p style="font-family:Arial;font-size:100%;">The Trust deed was registered on 24th February 1953 with a commitment by Nankana Sahib Education Trust to uplift the vast weaker section of Indian polity comprising Rural India by admitting 70% students every year from Rural Areas. This commitment was made to the nation on 8th April, 1956. 
+The day when foundation stone of the College was laid by Late Dr. Rajendra Prasad Ji, the First President of India.</p>
+
+  <img src="logo.jpg" alt="Gndec logo" style="width:250px;height:250px;">
+
+</body>
+</html>
