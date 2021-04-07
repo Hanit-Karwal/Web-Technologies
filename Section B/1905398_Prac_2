@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td
+{
+border: 2px solid black;
+padding: 3px;
+}
+table
+{
+border-spacing: 5px;
+}
+</style>
+</head>
+<body>
+<h2 style="color:blue;">Programming books</h2>
+<table style="width:100%">
+<tr>
+<th style="color:red;">Name</th>
+<th style="color:red;">Author</th> 
+<th style="color:red;">Release year</th>
+</tr>
+<tr>
+<td>Clean Code</td>
+<td>Robert Cecil Martin</td>
+<td>2008</td>
+</tr>
+<tr>
+<td>The Pragmatic Programmer</td>
+<td>Andy Hunt</td>
+<td>1999</td>
+</tr>
+<tr>
+<td>Programming Pearls</td>
+<td>Jon Bentley</td>
+<td>1986</td>
+</tr>
+</table>
+</body>
+</html>
