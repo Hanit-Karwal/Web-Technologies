@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 2</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body style="text-align: center">
+    <h1>Practical 2 [Tables]</h1>
+    <br />
+    <table style="width: 50%; margin-left: auto; margin-right: auto">
+      <tr>
+        <th>Site Name</th>
+        <th>Links</th>
+        <th>Link Address</th>
+      </tr>
+      <tr>
+        <td>Google</td>
+        <td><a href="https://www.google.com/" target="_blank">Google</a></td>
+        <td>https://www.google.com/</td>
+      </tr>
+      <tr>
+        <td>Facebook</td>
+        <td>
+          <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        </td>
+        <td>https://www.facebook.com/</td>
+      </tr>
+      <tr>
+        <td>GNDEC</td>
+        <td><a href="https://www.gndec.ac.in/" target="_blank">GNDEC</a></td>
+        <td>https://www.gndec.ac.in/</td>
+      </tr>
+    </table>
+    <ol style="text-align: left">
+      <strong>Ordered List</strong>
+
+      <li>GNDEC</li>
+      <li>Ludhiana</li>
+      <li>Punjab</li>
+    </ol>
+    <ul style="text-align: left">
+      <strong>Unordered List</strong>
+      <li>GNDEC</li>
+      <li>Ludhiana</li>
+      <li>Punjab</li>
+    </ul>
+    
+    
+     </head>
+  <body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 1</title>
+    <h1>Practical 1</h1>
+    <h1>Web Technology Laboratory</h1>
+    <h2>Professor : HANIT KARWAL</h2>
+    <h3>Guru Nanak Dev Engineering College, Ludhiana</h3>
+    <img
+      src="https://www.gndec.ac.in/sites/default/logo.png"
+      alt="gndec-logo"
+    />
+    <p>
+      Guru Nanak Dev Engineering College (GNDEC or GNE Ludhiana) is one of the
+      oldest engineering institutions of the northern region situated at Gill
+      Park, Ludhiana, Punjab, India. The foundation stone of the college was
+      laid on 8th April 1956 by Hon'ble Dr. Rajendra Prasad, the first President
+      of India. The college has been named after 1st Sikh Guru Guru Nanak Dev
+      Ji.
+    </p>
+    
+  </body>
+</html>
