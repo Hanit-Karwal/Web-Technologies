@@ -1,0 +1,69 @@
+[15:35, 4/7/2021] Vivek IT: <!DOCTYPE html>
+<head>
+<title>learning htm</title>
+</head>
+<body>
+<h3>Example of linking a web page</h3>
+<br>
+<a href="https:\\gndec.ac.in" title="gndec website" target="_blank">Go to college site</a>
+<br>
+<h3<Example of table</h3>
+<table>
+  <tr>
+    <th>Sr no.</th>
+    <th>Branch</th>
+    <th>Roll no</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Information Technology</td>
+    <td>123456</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Civil</td>
+    <td>32145</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>production engineering</td>
+    <td>895468</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Computer software Engineering</td>
+    <td>652462</td>
+  </tr>
+</table>
+<h3>An Unordered HTML List</h3>
+
+<ul>
+  <li>GNDEC</li>
+  <li>College</li>
+  <li>Ludhiana</li>
+</ul>  
+
+<h3>An Ordered HTML List</h3>
+
+<ol>
+  <li>Gndec</li>
+  <li>College</li>
+  <li>Ludhiana</li>
+</ol> 
+</body>
+</html>
+[15:35, 4/7/2021] Vivek IT: <!DOCTYPE html>
+<head>
+<title> Practical No. 1 htm</title>
+</head>
+<body>
+<h1>Web Technology Laboratory</h1>
+<br>
+<h2>Professor : HANIT KARWAL</h2>
+<h3>Guru Nanak Dev Engineering College, Ludhiana.</h3>
+<br>
+<img src="logo.png" class = "center">
+<br>
+<p>Guru Nanak Dev Engineering College was established by the Nankana Sahib Education Trust. NSET was founded in memory of the most sacred temple of Nankana Sahib, birth place of Guru Nanak Dev Ji. Shiromani Gurudwara Prabandhak Committee, Amritsar, a premier organization of universal brotherhood, was the main force behind the mission of "Removal of Economic Backwardness through Technology".With this mission, a Polytechnic was started in 1953 and Guru Nanak Dev Engineering College was established in 1956. The Trust deed was registered on 24th February 1953 with a commitment by The Nankana Sahib Education Trust to uplift the vast weaker section of Indian polity comprising Rural India by admitting 70% students every year from Rural Areas. This commitment was made to the nation on 8th April, 1956. The day when foundation stone of the College Building was laid by Late Dr. Rajendra Prasad Ji, the First President of India.Nearly 10,000 graduate and 3000 Post Graduate Engineers have passed out from this college during the last 50 years and are at present successfully employed in India & abroad.The college is now ISO 9001-2008 Certified, NBA accredited and have signed MoU with IOWA University [USA] for exchange of students and faculty.</p>
+</body>
+</html>
