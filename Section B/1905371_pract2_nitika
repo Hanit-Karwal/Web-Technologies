@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TABLE</title>
+	<style>
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+th,td{
+	background-color: rgb(240, 240, 240)
+}
+
+
+</style>
+</head>
+<body>
+	<h1 style="color:blue;">TABLE</h1>
+	<div> INFORMATION</div>
+
+	<!--lists-->
+
+<ul style="background-color:#efefef;">
+    <li >DATA</li>
+    <li >MARKSHEET</li>
+
+
+    <li>SEMESTER</li>
+     <li>FEE</li>
+</ul>
+<br>
+<hr>
+
+<a href="https://www.gndec.ac.in/" target="_blank">CLICK FOR FURTHER INFORMATION</a>
+
+<hr>
+
+<p>Check the data</p>
+
+	<table>
+       <thead>
+              <tr>
+                  <th>name</th>
+                  <th>email</th>
+                   <th>age</th>
+                </tr>
+        </thead>
+   <tbody>
+         <tr>
+                <td>nitika</td>
+                <td>nitikauppal0035@gmail.com</td>
+                <td>20</td>
+
+          </tr>
+             <tr>
+               <td>mehak</td>
+                <td>mehakgupta@gmail.com</td>
+                <td>20</td>
+
+          </tr> 
+
+
+   </tbody>
+
+</body>
+</html>
