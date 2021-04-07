@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GNDE COLLEGE</title>
+<style>
+</style>
+</head>
+<body>
+
+<h1><center>ABOUT GNDE COLLEGE</center></h1>
+<center><img src="gne.jpg" alt="GNE" ></center>
+<p>Guru Nanak Dev Engineering College, one of the prestigious, oldest and minority institution of Northern India, was established under the aegis of Nankana Sahib Education Trust (NSET) in 1956. NSET was founded in memory of the most sacred temple of Nankana Sahib, birth place of Guru Nanak Dev Ji. Shiromani Gurudwara Prabandhak Committee, Amritsar, a premier organization of universal brotherhood, which is the main force behind the mission of "Removal of Economic Backwardness through Technology" and NSET with the same mission, established a Polytechnic in 1953 and Guru Nanak Dev Engineering College (GNDEC) in 1956. </p>
+<a href="https://www.gndec.ac.in/">GURU NANAK DEV ENGINEERING COLLEGE</a>
+<h3>DEPARTMENTS</h3>
+<ol>
+  <li>CSE</li>
+  <li>IT</li>
+  <li>ECE</li>
+  <li>MECANICAL ENGINEERING</li>
+  <li>PRODUCTION DEPARTMENT</li>
+  <li>CIVIL ENGINEERING</li>
+</ol>
+<h3>FACILITIES</h3>
+<ul>
+  <li>Computer center</li>
+  <li>NCC</li>
+  <li>NSS</li>
+  <li>LIBRARY</li>
+  <li>SPORTS</li>
+</ul>
+<h3>STUDENTS LIST</h3>
+<table border="1">
+  <tr>
+    <th>CSE</th>
+    <th>IT</th>
+    <th>ME</th>
+    <th>CE</th>
+    <th>PD</th>
+  </tr>
+  <tr>
+    <td>120</td>
+    <td>120</td>
+    <td>120</td>
+    <td>120</td>
+    <td>120</td>
+
+  </tr>
+
+  
+</table>
+</body>
+</html>
