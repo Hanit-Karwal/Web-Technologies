@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+<h1 style="color:blue;">GURU NANAK DEV ENGINEERING COLLEGE</h1>
+<p title= guru nanak dev engineerng college></p>
+<h2>My First Heading</h2>
+<p> GNDEC is a engineering college. This is the paragraph.If you want to visit GNDEC home page press the below link.  </p>
+<p><a href="https://www.gndec.ac.in">Visit GNDEC home<a></p>
+<img src="logo.png" alt="Gndec" width="1000" height="300" >  
+</body>
+</html>
