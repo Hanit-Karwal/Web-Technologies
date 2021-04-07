@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+padding:10px;
+
+}
+</style>
+<body>
+<h1 style="color:blue;"> Links, tables & lists</h1>
+<h2>Basic HTML Table With Links</h2>
+<table style="width:50%">
+<tr>
+    <th>Sr no.</th>
+    <th>Courses</th>
+    <th>Respective links</th>   
+  </tr>
+
+  <tr>
+<th>1</th>
+    <td>Learn HTML</td>
+    <th><p><a href="https://www.w3schools.com/html">HTML</a></p></th>   
+  </tr>
+
+  <tr>
+<th>2</th> 
+    <td>Learn CSS</td>
+    <th><p><a href="https://www.w3schools.com/CSS">CSS</a></p></th>    
+  </tr>
+  
+<th>3</th>  
+    <td>Learn Python</td>
+    <th><p><a href="https://www.w3schools.com/python">PYTHON</a></p></th>     
+  </tr>
+</table>
+<h2>Ordered Lists</h2>
+<ol>
+  <li>Html</li>
+  <li>CSS</li>
+  <li>Python</li>
+</ol>  
+
+<h2>Unordered Lists</h2>
+<ul>
+  <li>Html</li>
+  <li>CSS</li>
+  <li>Python</li>
+</ul>
+
+
+</body>
+</html>
