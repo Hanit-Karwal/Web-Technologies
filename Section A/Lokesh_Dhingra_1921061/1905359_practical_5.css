@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color:peru;
+/*    #926239;      */
+    line-height: 1.6;
+}
+
+#showcase{
+    background-image: url("1905359_practical_5_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color:peru;
+    border: peru 2px solid;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+
+#showcase .button:hover{
+    background-color: #cd853f;
+    color:#fff;
+}
+.section_a{
+    padding: 20px;
+    background: peru;
+    color:whitesmoke;
+    text-align: center;
+}
+
+.section_b{
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#section_c{
+    display: flex;
+}
+#section_c div{
+    padding: 20px;
+}
+
+#section_c .box_1,#section_c .box_3{
+    background: peru;
+    color: whitesmoke;
+}
+#section_c .box_2{
+    background-color: #f9f9f9;
+}
+
