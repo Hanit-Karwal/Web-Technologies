@@ -1,0 +1,54 @@
+<!-- 
+    3. Create simple Forms in HTML and demonstrate the use of various form elements
+       like input box, textarea, submit and radio buttons etc.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 3</title>
+  </head>
+  <body>
+    <form action="">
+      <h1 style="text-align: center;">Payment Form</h1>
+      <h2>Content Information</h2>
+      <p>
+        Name: <input type="text" name="name" placeholder="Ekam Preet SIngh" />
+      </p>
+      <fieldset>
+        <legend>Gender</legend>
+        <p>
+          Male <input type="radio" name="gender" id="male" /> Female
+          <input type="radio" name="gender" id="female" />
+        </p>
+      </fieldset>
+      <p>
+        Address:
+        <br>
+        <textarea
+          name="address"
+          id="address"
+          cols="100"
+          rows="8"
+          placeholder="House No., City, State, Country"
+        ></textarea>
+      </p>
+      <p>Email <input type="email" name="email" placeholder="abc@xyz.com" /></p>
+
+      <p>
+        Card Type:
+        <select name="card_type" id="card_type">
+          <option value="">--Select a card Type --</option>
+          <option value="Visa">Visa</option>
+          <option value="MasterCard">Master Card</option>
+          <option value="RuPay">RuPay</option>
+        </select>
+      </p>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
