@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href=styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form action="" method="post">
+<form class="form-signin">
+<div class="container-fluid">
+<div class="row">
+<h2 class="form-signin-heading">Please sign in</h2>
+<div class="col-sm-4" style="&nbsp"></div>
+<div class="col-sm-4"><input type="text" id="u1" placeholder="username"
+required class="form-control"/></div>
+<div class="col-sm-4" style="&nbsp"></div>
+</div>
+<div class="row">
+<div class="col-sm-4" style="&nbsp"></div>
+<div class="col-sm-4"><input type="password" id="p1" placeholder="Password"
+required class="form-control"/></div>
+<div class="col-sm-4" style="&nbsp"></div>
+<button class="btn btn-lg btn-primary" type="submit">Sign in</button>
+</div>
+</form>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#s1").click(function(){
+var u1=$("#u1").val();
+var p1=$("#p1").val();
+if($("u1").val()==null||$("p1").val()==null)
+alert("please fill out this field");
+else if( $theForm.valid() ) {
+$theForm.submit();
+}
+});
+});
+</script>
+</html>
