@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+    .hero {
+     width: 100%;
+     height: 100vh;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh5iiXMGIPi4JQIU682VuVk5MxFhk1J2n0HA&usqp=CAU);
+     background-size: cover;
+     
+    background-position: center;
+     position: relative;    
+     overflow: hidden;
+    }
+    .logo {
+     width: 100px;
+     cursor: pointer;
+    }
+    .navbar{
+     width:85%;
+     height: 15%;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    }
+    button{
+     color: #f8f8f8;
+     padding: 5px 10px;
+     background: transparent;
+     border: 1px solid rgb(235, 238, 241);
+     border-radius: 10px;
+     outline:rgb(15, 122, 122);
+     cursor: pointer;
+     
+     
+    }
+    .content{
+     color: #fdfeff;
+     position: absolute;
+     top: 50%;
+     left: 5%;
+     transform: translateY(-50%);
+     z-index: 2;
+    }
+    h1{
+     font-size: 80px;
+     margin: 10px 0 30px;
+     line-height: 80px;
+    }
+    .side-bar{
+     width: 50px;
+     height: 100vh;
+     background: linear-gradient(#9c9c9c, #589bda);
+     position: absolute;
+     right: 0;
+     top: 0;
+    }
+    
+    
+
+    .social-links, img{
+     width: 45px;
+     margin: 5px auto;
+     cursor: pointer;
+    
+    }
+    .social-links{
+     width: 50px;
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+    }
+    .useful-links{
+     width: 50px;
+     text-align: center;
+     position: absolute;
+     bottom: 3%;
+    }
