@@ -1,0 +1,13 @@
+body{
+	background:-webkit-linear-gradient(left,#FFC0CB,#C0C0C0);
+	color:black;
+}
+
+input{
+border-radius:15px;
+border-bottom: 2px solid aqua;
+height:45px;
+width:25%;
+color:black;
+font-size: 15;
+}
