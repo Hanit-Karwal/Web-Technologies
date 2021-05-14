@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Practical 4</title>
+ <style>
+ .internal {
+ margin: 20px 50px;
+ background-color: #3edbf0;
+ color: #02475e;
+ font-weight: 500;
+ font-family: "Arial Narrow Bold", sans-serif;
+ padding: 30px;
+ border-radius: 20px;
+ }
+ </style>
+ <link rel="stylesheet" href="2005011_prac4_css.css" />
+ </head>
+ <body>
+ <h1 style="text-align: center">Use of Cascading Style Sheets (CSS)</h1>
+ <div style="text-align: center; font-size: 3em">
+ Inline,Internal & External CSS
+ </div>
+ <div
+ style="
+ margin: 20px 50px;
+ background-color: #ff8474;
+ color: #02475e;
+ font-weight: 500;
+ font-family: 'Arial Narrow Bold', sans-serif;
+ padding: 30px;
+ border-radius: 20px;
+ "
+ >
+ Inline CSS An inline style may be used to apply a unique style for a
+ single element. To use inline styles, add the style attribute to the
+ relevant element. The style attribute can contain any CSS property.
+ </div>
+ <div class="internal">
+ Internal CSS An internal style sheet may be used if one single HTML page
+ has a unique style. 
+ </div>
+ <div class="external">
+ External CSS With an external style sheet, you can change the look of an
+ entire website by changing just one file! Each HTML page must include a
+ reference to the external style sheet file inside the <link /> element,
+ inside the head section.
+ </div>
+ </body>
+</html>
