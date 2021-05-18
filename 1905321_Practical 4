@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html lang="en-us">
+<head>
+<link rel="stylesheet" type="text/css" href="css/fourthh.css" >
+<title>Types Of CSS</title>
+<style >
+body{
+background-color: #ff3d3d;
+}
+</style>
+</head>
+<body>
+<h1 style="font-family: serif;">USING DIFFERENT FORMS OF
+CSS(Inline,Internal,External)</h1>
+<p>I Am Davinder kumar (CRN 1921022,URN 1905321) Studied At GNDEC Ludhiana
+In BTech 4th
+Sem IT.</p>
+<a href="https://github.com/davinder22133" style="margin-left: 50px;color:
+#000000; font-size:
+20px;">My Github Profile Link</a>
+<h2>How I Learn My Web Technologies Languages (HTML and CSS)</h2>
+<p>I Am Learn HTML and CSS course From Udemy Course.The Link To This Course
+Is Provided
+Given Below. It Is A Paid Course. I Am Purchase On Sales Days On Udemy About Rs
+455.
+It Is A Best Course For Starting HTML and CSS.</p>
+<a
+href="https://www.udemy.com/course/design-and-develop-a-killer-website-withhtml5-and-css3/"
+style="color: #000000;margin-left: 50px; font-size: 20px;">Link to Udemy
+Course</a>
+</body>
+</html>
+fourthh.css (External CSS file)
+p{
+background-color: #000000;
+font-family: Times New Roman;
+font-size: 20px;
+color: #ffff;
+}

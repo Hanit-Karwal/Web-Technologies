@@ -1,0 +1,57 @@
+fifth.html (HTML file)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="css/fifth.css" >
+<title>OMNIFOODS</title>
+</head>
+<body>
+<h1>Goodbye junk food. <br />Hello super healthy meals.</h1>
+<a class="btn btn-full" href="https://www.zomato.com/india" >ORDER FOOD
+FROM ZOMATO</a>
+<a class="btn btn-ghost"
+href="https://www.healthline.com/nutrition/50-super-healthy-foods">HEALTHY
+FOOD
+EXAPMPLES.</a>
+</body>
+</html>
+Fifth.css(CSS file)
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+h1 {
+color: #ffff;
+font-family: "Lato", "Arial", "san-serif";
+font-size: 50px;
+font-weight: 300;
+margin-left: 50px;
+text-rendering: optimizeLegibility;
+}
+body{
+background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+url("images/hero.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+url("images/hero.jpg");
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+a:link,
+a:visited{
+color: #f56200;
+text-decoration: none;
+padding-bottom: 2px;
+border-bottom: 1px solid #f56200;
+-webkit-transition: border-bottom 0.2s, color 0.2s;
+transition: border-bottom 0.2s, color 0.2s;
+font-size: 20px;
+margin-left: 50px;
+}
+a:hover,
+a:active{
+color:#ffff;
+border-bottom: 1px solid transparent;
+}

@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <!-- Required meta tags -->
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+ integrity="sha384-
+MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+crossorigin="anonymous">
+ <title>Practical 6</title>
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ <a class="navbar-brand" href="#">WTP</a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" datatarget="#navbarSupportedContent"
+ aria-controls="navbarSupportedContent" aria-expanded="false" arialabel="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <ul class="navbar-nav mr-auto">
+ <li class="nav-item active">
+ <a class="nav-link" href="#">Home <span class="sronly">(current)</span></a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="#">About</a>
+ </li>
+ <li class="nav-item dropdown">
+ <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+role="button"
+ data-toggle="dropdown" aria-haspopup="true" ariaexpanded="false">
+ Types Of Climates
+ </a>
+ <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+ <a class="dropdown-item" href="#">HTML</a>
+ <a class="dropdown-item" href="#">CSS</a>
+ <div class="dropdown-divider">JavaScript</div>
+ <a class="dropdown-item" href="#">Jquery</a>
+ <a class="dropdown-item" href="#">Ajax</a>
+ <div class="dropdown-divider"></div>
+ <a class="dropdown-item" href="#">PHP</a>
+ <a class="dropdown-item" href="#">Bootstrap</a>
+ </div>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="#">Contact Us</a>
+ </li>
+ </ul>
+ <form class="form-inline my-2 my-lg-0">
+ <input class="form-control mr-sm-2" type="search" placeholder="Search"
+aria-label="Search">
+ <button class="btn btn-outline-success my-2 my-sm-0"
+type="submit">Search</button>
+ </form>
+ </div>
+ </nav>
+ <div id="carouselExampleIndicators" class="carousel slide carousel-fade" dataride="carousel">
+ <ol class="carousel-indicators">
+ <li data-target="#carouselExampleIndicators" data-slide-to="0"
+class="active"></li>
+ <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+ <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+ </ol>
+ <div class="carousel-inner">
+ <div class="carousel-item active">
+ <img class="d-block w-100"
+src="https://source.unsplash.com/1400x300/?nature,water" alt="First slide">
+ <div class="carousel-caption d-none d-md-block">
+ <h2>Nature</h2>
+ <p>Nature, in the broadest sense, is the natural, physical, material
+world or universe. "Nature" can refer to the phenomena of the physical world, and
+also to life in general. ... Although humans are part of nature, human activity is
+often understood as a separate category from other natural phenomena.</p>
+ <button class="btn btn-danger">Climate Changes</button>
+ <button class="btn btn-primary">Importance Of Nature</button>
+ <button class="btn btn-success">Learn More</button>
+ </div>
+ </div>
+ <div class="carousel-item">
+ <img class="d-block w-100"
+src="https://source.unsplash.com/1400x300/?nature,python" alt="Second slide">
+ <div class="carousel-caption d-none d-md-block">
+ <h2>Nature</h2>
+ <p>Nature, in the broadest sense, is the natural, physical, material
+world or universe. "Nature" can refer to the phenomena of the physical world, and
+also to life in general. ... Although humans are part of nature, human activity is
+often understood as a separate category from other natural phenomena. </p>
+ <button class="btn btn-danger">Climate Changes</button>
+ <button class="btn btn-primary">Importance Of Nature</button>
+ <button class="btn btn-success">Learn More</button>
+ </div>
+ </div>
+ <div class="carousel-item">
+ <img class="d-block w-100"
+src="https://source.unsplash.com/1400x300/?nature,code" alt="Third slide">
+ <div class="carousel-caption d-none d-md-block">
+ <h2>Nature</h2>
+ <p>Nature, in the broadest sense, is the natural, physical, material
+world or universe. "Nature" can refer to the phenomena of the physical world, and
+also to life in general. ... Although humans are part of nature, human activity is
+often understood as a separate category from other natural phenomena.</p>
+ <button class="btn btn-danger">Climate Changes</button>
+ <button class="btn btn-primary">Importance Of Nature</button>
+ <button class="btn btn-success">Learn More</button>
+ </div>
+ </div>
+ </div>
+ <a class="carousel-control-prev" href="#carouselExampleIndicators"
+role="button" data-slide="prev">
+ <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+ <span class="sr-only">Previous</span>
+ </a>
+ <a class="carousel-control-next" href="#carouselExampleIndicators" 
+role="button" data-slide="next">
+ <span class="carousel-control-next-icon" aria-hidden="true"></span>
+ <span class="sr-only">Next</span>
+ </a>
+ </div>
+ <div class="container my-4">
+ <div class="row mb-2">
+ <div class="col-md-6">
+ <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+ <div class="card-body d-flex flex-column align-items-start">
+ <strong class="d-inline-block mb-2 text-primary">Continue</strong>
+ <p class="card-text mb-auto">Continue into our courses and learn
+about Nature.</p>
+ <a href="#">Continue</a>
+ </div>
+ <img class="card-img-right flex-auto d-none d-lg-block" datasrc="holder.js/200x250?theme=thumb"
+ alt="Thumbnail [200x250]" style="width: 200px; height: 250px;"
+ src="https://source.unsplash.com/500x700/?nature,water" dataholder-rendered="true">
+ </div>
+ </div>
+ <div class="col-md-6">
+ <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+ <div class="card-body d-flex flex-column align-items-start">
+ <strong class="d-inline-block mb-2 text-success">Test</strong>
+ <p class="card-text mb-auto">Test your skills with our quizes. </p>
+ <a href="#">Continue</a>
+ </div>
+ <img class="card-img-right flex-auto d-none d-lg-block" datasrc="holder.js/200x250?theme=thumb"
+ alt="Thumbnail [200x250]"
+src="https://source.unsplash.com/500x700/?nature,technology"
+ data-holder-rendered="true" style="width: 200px; height: 250px;">
+ </div>
+ </div>
+ </div>
+ </div>
+</body>
+</html>

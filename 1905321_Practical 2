@@ -1,0 +1,61 @@
+: <!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+font-family: arial;
+border-collapse: collapse;
+width: 100%;
+}
+td, th {
+border: 1px solid #020202;
+text-align: left;
+padding: 10px;
+}
+</style>
+</head>
+<body style="background-color: #ff5c5c;">
+<table>
+<tr>
+<th>CARS NAME</th>
+<th>PRICE LIST</th>
+<th>SHOWROOM ADDRESS</th>
+</tr>
+<tr>
+<th> BMW</th>
+<th>Starting 37.90 Lakhs</th>
+<th>New Haibowal, Ludhiana.</th>
+</tr>
+<tr>
+<th>Mercedes</th>
+<th> Starting 20.6 Lakhs</th>
+<th> Model Town, Ludhiana.</th>
+</tr>
+<tr>
+<th>Jaguar</th>
+<th>Starting 15.8 Lakhs</th>
+<th>Sanhewal, Ludhiana.</th>
+</tr>
+</table>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3
+A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.vLrSrFaOvC8g8
+mNuKOT63QHaEA%26pid%3DApi&f=1" width="150"
+height="150" style="padding-left: 180px;">
+<img
+src="https://external-content.duckduckgo.com/iu/?u=https%3
+A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.x5UNf1JMgwUd
+wAV87pOmcQHaFX%26pid%3DApi&f=1" width="150"
+height="150">
+<img
+src="https://external-content.duckduckgo.com/iu/?u=https%3
+A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.dQx0euHjhwwz
+VRlrSMKYGQHaEK%26pid%3DApi&f=1" width="150"
+height="150"><br>
+<a href="https://www.bmw.in/en/index.html">Link To BMW
+Car Website.</a><br>
+<a href="https://www.mercedes-benz.co.in/">Link To
+Mercedes Car Website.</a><br>
+<a href="https://www.jaguar.in/index.html">Link To Jaguar Car
+Website.</a>
+</body>
+</html>

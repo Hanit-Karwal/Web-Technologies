@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>Resume Forms</title>
+<style>
+body {
+background-color: #d9a6f7;
+}
+</style>
+</head>
+<body>
+<h1 style="color:#0f0f0f; font-family: Lato;"><center><b>FILL
+DETAILS FOR JOB APPLICATION.</b></center>
+</h1>
+<form action="" method="post">
+<form action="/action_page.php">
+<label for="fname" style="margin-left: 150px;" >First name :
+</label>
+<input type="text" id="fname" name="fname"
+value="" ><br><br>
+<label for="lname" style="margin-left: 150px;">Last name :
+</label>
+<input type="text" id="lname" name="lname" value="" ><br><br>
+<label for="email" style="margin-left: 150px;">Email : </label>
+<input type="text" id="email" name="email" value=""><br><br>
+<label for="cont" style="margin-left: 150px;">Contact No. :
+</label>
+<input type="text" id="cont" name="cont" value=""><br><br>
+<label for="gender" style="margin-left: 150px;">Gender : </label>
+<input type="text" id="gender" name="gender"
+value=""><br><br>
+<label for="loc" style="margin-left: 150px;">Location : </label>
+<input type="text" id="loc" name="loc" value=""><br><br>
+<label for="lname" style="margin-left: 150px;">Designation :
+</label>
+<input type="text" id="des" name="des" value=""><br><br>
+<label for="exp" style="margin-left: 150px;">Experience:</label>
+<input type="text" id="exp" name="exp" value=""><br><br>
+<input type="submit" value="Submit" style="margin-left:
+150px;"><br><br><br><br>
+</form>
+<p align="center"><b>Thanks For Filling Details.</b></p>
+</body>
+</html>
