@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           PRACTICAL NO : 3 
+        </title>
+        <style>
+            body{
+                background-color: rgb(44, 40, 40);
+                color: whitesmoke;
+            }
+            h1{
+                background-color: rgb(20, 19, 19);
+                color: whitesmoke;
+                text-align: center;
+            }
+            p{
+               /* background-color: rgb(19, 17, 17); */
+                font-size: 140%;
+                margin-left: 1%;
+                margin-right: 80%;
+                text-align: center;
+
+            }
+            input{
+                border: 1px solid rgb(226, 222, 222);
+                margin-top: 6px;
+                margin-bottom: 16px;
+                box-sizing: border-box;
+                padding: 12px;
+                border-radius: 4px;
+            }
+            #text1{
+                width: 20%;
+            }
+            label{
+                font-size: 130%;
+            }
+            #radio1{
+                font-size: 110%;  
+                margin-left: 1%;
+                margin-right: 2%;
+            }
+            #check1{
+                font-size: 110%;  
+                margin-left: 1%;
+                margin-right: 2%;
+            }
+            #check{
+                margin-left: 5%;
+                margin-top: 1%;
+            }
+            #button1{
+                background-color: rgb(68, 74, 85);
+                color: rgb(241, 228, 228);
+                text-align: center;
+                border: 2px solid whitesmoke;
+                display: inline;
+                font-size: 100%;
+                padding: 14px 40px;
+                border-radius: 12px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>SAMPLE FORM</h1>
+        <br>
+        <form id="form1">
+            <p>Personal Information :-</p><hr>
+            <label style="margin-left: 5%;">First Name : </label><input id="text1" type="text" placeholder="First name..">
+            <label style="margin-left: 19.5%;">Last Name : </label><input id="text1" type="text" placeholder="Last name..">
+            <br><label style="margin-left: 9.5%;">Age : </label><input id ="text1" type="number" placeholder="Age..">
+            <label style="margin-left: 20%;">Birth date : </label><input id="text1" type = "date" placeholder="date">
+            <br><label style="margin-left: 8%;">Gender : </label>
+            <input type="radio" id="male" name="Gender"><label for="male" id="radio1">Male</label>
+            <input type="radio" id="female" name="Gender"><label for="female" id="radio1">Female</label>
+            <input type="radio" id="other" name="Gender"><label for="other" id="radio1">Other</label>
+            <label style="margin-left: 18%;">Email : </label><input id="text1" type="email" placeholder="Ex-example@gmail.com">
+            <br><label style="margin-left: 6%;">Country : </label><input id="text1" type="text" placeholder="Country..">
+            <label style="margin-left: 24%;">State : </label><input id="text1" type="text" placeholder="State..">
+
+           <hr><p>Academic Details :-</p><hr>
+           <label style="margin-left: 5%;">School/college : </label><input id="text1" type="text" placeholder="School/college">
+           <label style="margin-left: 10%;">Board : </label>
+           <input type="radio" id="centreboard" name="Board"><label for="centreboard" id="radio1">CBSE</label>
+           <input type="radio" id="stateboard" name="Board"><label for="stateboard" id="radio1">State Board</label>
+           <br><label for="stream" style="margin-left: 5%;">Stream : </label>
+           <input list="stream" name="stream" style="margin-left: 5%;" placeholder="Stream..">
+                       <datalist id="stream">
+                            <option value="Medical"></option>
+                            <option value="Non-medical"></option>
+                            <option value="Commerce"></option>
+                            <option value="Arts"></option>
+                        </datalist> 
+            <label style="margin-left: 10%;">Specify Board (If state board) : </label><input type="text" placeholder="ex : PSEB">
+
+            <hr><p>Other Details :-</p><hr>
+            <label style="margin-left: 5%;">Tick the options of your intrest :- </label><br>
+            <input type="checkbox" name="Hobbies" id="check"><label for="Hobbies" id="check1">Reading</label>
+            <input type="checkbox" name="Hobbies" id="check"><label for="Hobbies" id="check1">Listening music</label>
+            <input type="checkbox" name="Hobbies" id="check"><label for="Hobbies" id="check1">browsing</label><br>
+            <input type="checkbox" name="Hobbies" id="check"><label for="Hobbies" id="check1">Sports</label>
+            <input type="checkbox" name="Hobbies" id="check"><label for="Hobbies" id="check1">Technology facts</label>
+            <input type="checkbox" name="Hobbies" id="check"><label for="Hobbies" id="check1">Travelling</label><br>
+            <label style="margin-left: 5%;">Contact No. : </label><input type="number" placeholder="Mobile No.">
+         </form>
+        
+         <button id="button1" type="submit" form="form1">SUBMIT</button>
+    </body>
+</html>
