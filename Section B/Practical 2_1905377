@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 2</title>
+</head>
+<body >
+    <h1>Here is the list of some friendly dogs:</h1>
+    <ul>
+        <li>Golden Retriever</li>
+        <li>Boston Terrier</li>
+        <li>Labrador Retriever</li>
+        <li>Poodle</li>
+        <li>Pug</li>
+        <li>Boxer</li>
+        <li>Bulldog</li>
+        <li>Collie</li>
+    </ul>
+    <h2>Table</h2>
+    <table style="width: 100%; border-spacing:5px; border:solid">
+        <tr >
+            <th>Dog Name</th>
+            <th>Characters</th>
+        </tr>
+        <tr>
+            <td>Golden Retriever</td>
+            <td>Golden Retrievers make excellent family dogs, their friendly nature extending to kids, other dogs, and other animals. These dogs are very active, so daily exercise and play is a must.</td>
+        </tr>
+        <tr>
+            <td>Boston</td>
+            <td>These dogs love to meet new people, are good with kids, and although they require regular exercise, they don’t necessarily need a yard or a ton of space – they’re great city dogs.</td>
+        </tr>
+
+        <tr>
+            <td>Labrador Retriever</td>
+            <td>Labs are one of the best dogs for families – known for their ability to socialize with children, other dogs, other animals, and strangers alike. These dogs love to play, have a pretty high energy level, and can be trained very easily.</td>
+        </tr>
+        <tr>
+            <td>Poodle</td>
+            <td>Poodles are very people-oriented, they love all kinds of activities, and generally make excellent dogs for children and families. Plus, Poodles come in three different sizes  – Toy, Miniature, and Standard.</td>
+        </tr>
+        <tr>
+            <td>Pug</td>
+            <td>Pugs are extremely sociable, agreeable, and love to be with their family members, as well as meet new friends.</td>
+        </tr>
+        <tr>
+            <td>Boxer</td>
+            <td>These dogs are known to be silly and are unlikely to pass up an opportunity for playtime. Boxers have a lot of energy, so daily exercise is important. They’re easy to train, however, and training can help channel their energy.</td>
+        </tr>
+        <tr>
+            <td>Bulldog</td>
+            <td>They may look grumpy sometimes, but there’s no doubt that Bulldogs are one of the friendliest dog breeds around. Bulldogs are easygoing, low-maintenance, and make steadfast companions.</td>
+        </tr>
+        <tr>
+            <td>Collie</td>
+            <td>These dogs are smart and easily trainable; they love having an activity to participate in with their families.</td> 
+        </tr>
+        
+    </table>
+    <a href="Practical1.html">Previous</a><br>
+    <a href="Practical3.html">Next</a>
+</body>
+</html>
