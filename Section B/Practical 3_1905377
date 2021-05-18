@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 3</title>
+</head>
+<body>
+    <h1>Adoption Application</h1>
+    <form action="/action_page.php">
+        <label >Perspective Pet Parent:</label><br>
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required><br><br>
+        <label >Name of pet you wish to Adopt:</label><br>
+        <input type="text" required><br><br>
+        <label for="dogs">Choose a dog:</label><br>
+
+        <select id="dogs" name="dogs">
+        <option value="Golden Retriever">Golden Retriever</option>
+        <option value="Boston Terrier">Boston Terrier</option>
+        <option value="Labrador Retriever">Labrador Retriever</option>
+        <option value="Poodle">Poodle</option>
+        <option value="Pug">Pug</option>
+        <option value="Boxer">Boxer</option>
+        <option value="Bulldog">Bulldog</option>
+        <option value="Collie">Collie</option>
+        </select><br><br>
+        <label>Contact No:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-789" required><br><br>
+        <label>Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="yourname@ex.com"required><br><br>
+        <label>Address:</label><br>
+        <input placeholder="street"><input placeholder="city"><input placeholder="pin code"><input placeholder="country"><br><br>
+        <label >Why you want to adopt a dog?</label><br>
+        <textarea name="message" rows="10" cols="30"></textarea>
+
+        <br><input type="submit">
+        <input type="reset">
+
+    </form>
+</body>
+</html>
