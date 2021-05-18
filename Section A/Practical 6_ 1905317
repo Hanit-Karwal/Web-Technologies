@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<title>Quiz Coding</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<div class="container-fluid">
+<a class="navbar-brand" href="#">Quiz Coding</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" ariaexpanded="false"
+aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item">
+<a class="nav-link " aria-current="page" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link " aria-current="page" href="#">Courses</a>
+</li>
+<li class="nav-item">
+<a class="nav-link " aria-current="page" href="#">Future Tech</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://github.com/vaibhav7897">About Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://github.com/vaibhav7897">Contact Us</a>
+</li>
+</ul>
+<form class="d-flex">
+<input class="form-control me2" type="search" placeholder="Search" arialabel="Search">
+<button class="btn btn-outline-success bg-danger" type="submit">Search</button>
+</form>
+</div>
+</div>
+</nav><br>
+<div class="container">
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" databsride="carousel">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bsslideto="0" class="active"
+aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bsslideto="1"
+aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bsslideto="2"
+aria-label="Slide 3"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="https://presentationdeck.com/wp-content/uploads/2015/11/computer-powerpoint-template.png" width="1350" height="675">
+<div class="carousel-caption d-none d-md-block">
+<div style="color: firebrick;">
+<h2>Welcome to Quiz Coding</h2>
+<p>Learn to code from scratch </p>
+</div>
+<button class="btn btn-success ">Learn Code</button>
+<button class="btn btn-success">Quiz</button>
+<button class="btn btn-success">Prizes</button>
+<button class="btn btn-success">Courses</button>
+<button class="btn btn-success">Experts</button>
+</div>
+</div>
+<div class="carousel-item">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEoOqGugVr-ENMDxgHyuWYHu6QIRQN_sTwiQ&usqp=CAU" width="2200" height="800">
+<div class="carousel-caption d-none d-md-block">
+<div style="color: firebrick;">
+<h2>Welcome to Quiz Coding</h2>
+<p>Learn to code from scratch </p>
+</div>
+<button class="btn btn-success">Learn Code</button>
+<button class="btn btn-success">Quiz</button>
+<button class="btn btn-success">Prizes</button>
+<button class="btn btn-success">Courses</button>
+<button class="btn btn-success">Experts</button>
+</div>
+</div>
+<div class="carousel-item">
+<img src="images/p4.png.png" width="1600" height="400">
+<div class="carousel-caption d-none d-md-block">
+<div style="color: firebrick;">
+<h2>Welcome to Quiz Coding</h2>
+<p>Learn to code from scratch </p>
+</div>
+<button class="btn btn-success ">Learn Code</button>
+<button class="btn btn-success">Quiz</button>
+<button class="btn btn-success">Prizes</button>
+<button class="btn btn-success">Courses</button>
+<button class="btn btn-success">Experts</button>
+</div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" databstarget="#carouselExampleCaptions"
+data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" databstarget="#carouselExampleCaptions"
+data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div><br>
+<div class="container marketing">
+<div class="row">
+<div class="col-lg-4">
+<svg class="gne_front.jpg " width="140" height="140"
+xmlns="http://www.w3.org/2000/svg" role="img" arialabel="Placeholder: 140x140"
+preserveAspectRatio="xMidYMid slice" focusable="false">
+<title>Placeholder</title>
+<rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" f
+ill="#777"
+dy=".3em"></text>
+</svg>
+<h2>Courses</h2>
+<p>Our Courses are provided accoring to age-group for better understanding and easy
+to learn.</p>
+<p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Technology">View details &raquo;</a>
+</p>
+</div>
+<div class="col-lg-4" >
+<svg class="bd-placeholder-img" width="140" height="140"
+xmlns="http://www.w3.org/2000/svg" role="img" arialabel="Placeholder: 140x140"
+preserveAspectRatio="xMidYMid slice" focusable="false">
+<title >Placeholder</title>
+<rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%"
+fill="#777"
+dy=".3em"></text>
+</svg>
+<h2>Prizes</h2>
+<p>We love to give prizes to quiz winners who had done any course from us and score
+a good.</p>
+<p><a class="btn btn-secondary"
+href="https://www.sgs.com/en/campaigns/sgs-cybersecuritysolutionsldp?wt_mc_id=gDNICorp06004c&utm_source=Google&utm_medium=PPC_Search_Text_Ads&utm_campaig
+n=Cyber_Security_Services_BA_Global_GSN_VR2&gclid=EAIaIQobChMI2Z7r6umj8AIVV0NgCh37JwrmEAAYAyAAEgIAqfD_BwE">View details &raquo;</a></p>
+</div>
+<div class="col-lg-4">
+<svg class="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzLRXmcex6jWwTUH9Xsoopz3O-EwcQjA-Zzg&usqp=CAU " width="140" height="140"
+xmlns="http://www.w3.org/2000/svg" role="img" arialabel="Placeholder: 140x140"
+preserveAspectRatio="xMidYMid slice" focusable="false">
+<title>Placeholder</title>
+<rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%"
+fill="#777"
+dy=".3em">140x140</text>
+</svg>
+<h2>Quiz</h2>
+<p>Lot of Quizes held every month be a part of it, sho your talent and win exciting Priz
+essa </p>
+<p><a class="btn btn-secondary"
+href="https://www.investopedia.com/terms/a/artificialintelligenceai.asp#:~:text=Artifici
+al%20intelligence%20(AI)%20refers%20to,as%20learning%20and%20prob
+lem%2Dsolving.">View
+details &raquo;</a></p>
+</div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+crossorigin="anonymous"></script>
+</body>
+</html>
