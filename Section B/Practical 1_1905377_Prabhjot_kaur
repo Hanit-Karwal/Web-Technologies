@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 1</title>
+</head>
+<body >
+    <h1>Dogs are human's best friend</h1>
+    <q  >The only, absolute and best friend that a man has, in this selfish world, the only one that will not betray or deny him, is his DOG.</q><br>
+    <img src="https://cdn.pixabay.com/photo/2018/04/23/14/38/adorable-3344414__340.jpg" alt="dog with owner" width="500px">
+    <img src="https://cdn.pixabay.com/photo/2019/08/19/07/45/dog-4415649__340.jpg" alt="dog " width="500px">
+    <p >It is said that dogs are human's best friend.They are loving, caring and most importanly they are loyal.It’s literally the best feeling when you come home after a hard day, and there’s a big waggy tail there to greet you.According to a recent survey, dog owners are more likely to be healthier overall because of their increased level of activity.</p>
+
+</body>
+</html>
