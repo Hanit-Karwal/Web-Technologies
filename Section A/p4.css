@@ -1,0 +1,9 @@
+  .external {
+  margin: 20px 50px;
+  background-color:yellow;
+  color:#02475e;
+  font-weight: 500;
+  font-family: "Arial Narrow Bold", sans-serif;
+  padding: 30px;
+  border-radius: 20px;
+}
