@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;"></nav>
+    
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+     </nav>
+    
+    </head>
+      
+  
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Practicle 6</title>
+    <style>
+      p{
+        padding: 15px;
+      }
+      @media (min-width: 576px) { 
+        div.text-centre{
+          width:50%;
+          float: inline-end;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(186, 228, 252);">
+    <div class="text-center">
+        <img src="puppies.jpg" class="rounded" alt="puppies" width="500px">
+      </div>
+   
+    
+    <div class="clearfix">
+      
+      
+        <p>
+            <h2>Golden Retriever</h2>
+            <p>Golden Retrievers make excellent family dogs, their friendly nature extending to kids, other dogs, and other animals. These dogs are very active, so daily exercise and play is a must.</p>
+        </p>
+        <p>
+            <h2>Boston</h2>
+            <p>These dogs love to meet new people, are good with kids, and although they require regular exercise, they don’t necessarily need a yard or a ton of space – they’re great city dogs</p>
+        </p>
+
+        <p>
+            <h2>Labrador Retriever</h2>
+            <p>Labs are one of the best dogs for families – known for their ability to socialize with children, other dogs, other animals, and strangers alike. These dogs love to play, have a pretty high energy level, and can be trained very easily</p>
+        </p>
+        <p>
+            <h2>Poodle</h2>
+            <p>Poodles are very people-oriented, they love all kinds of activities, and generally make excellent dogs for children and families. Plus, Poodles come in three different sizes  – Toy, Miniature, and Standard</p>
+        </p>
+        <p>
+            <h2>Pug</h2>
+            <p>Pugs are extremely sociable, agreeable, and love to be with their family members, as well as meet new friends</p>
+        </p>
+        <p>
+            <h2>Boxer</h2>
+            <p>These dogs are known to be silly and are unlikely to pass up an opportunity for playtime. Boxers have a lot of energy, so daily exercise is important. They’re easy to train, however, and training can help channel their energy</p>
+        </p>
+        <p>
+            <h2>Bulldog</h2>
+            <p>They may look grumpy sometimes, but there’s no doubt that Bulldogs are one of the friendliest dog breeds around. Bulldogs are easygoing, low-maintenance, and make steadfast companions</p>
+        </p>
+        <p>
+            <h2>Collie</h2>
+            <p>These dogs are smart and easily trainable; they love having an activity to participate in with their families</p> 
+        </p>
+        
+        </p>
+      </div>
+     
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
