@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <!-- LINK TO EXTERNAL CSS -->
+    <link rel="stylesheet" href="style.css">
+
+                <!-- internal CSS -->
+    <style>
+      body{
+        background-image: url("./gne.png");
+        background-color: linear-gradient(#2b8a8a,#7d398b)
+      }
+
+      .registerbtn {
+        font-size: medium;
+        padding: 16px 20px;
+        margin: 8px 0;
+        cursor: pointer;
+        width: 100%;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="action_page.php">
+      <div class="container" >
+        <h1 style="text-align: center;">Register</h1>
+        <p style="text-align: center;">Please fill in this form to create an account.</p>
+        <hr />
+
+        <label for="email"><b>Email</b></label>
+        <input
+          type="text"
+          placeholder="Enter Email"
+          name="email"
+          id="email"
+          required
+        />
+
+        <label for="name"><b>Full Name</b></label>
+        <input
+          type="text"
+          placeholder="Enter Full  Name"
+          name="name"
+          id="name"
+          required
+        />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          id="psw"
+          required
+        />
+
+        <hr />
+                      <!-- INLINE CSS -->
+        <button type="submit" class="registerbtn" style="font-size: medium;
+        background : linear-gradient(#24aa2f,#5a8b39) ;">Register</button>
+      </div>
+    </form>
+  </body>
+</html>
