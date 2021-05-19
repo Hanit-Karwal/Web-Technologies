@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+html { 
+  background:  url(paper.gif) no-repeat center fixed; 
+  background-size: cover;}
+#borderimg { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 stretch;
+}
+article {
+ column-count: 3;
+ column-gap: 40px;
+ column-rule: 1px dashed grey;
+}
+figcaption {
+ text-align: center;
+ font-style: italic;
+ font-size: smaller;
+ }
+</style>
+</head>
+<body><center>
+<p id="borderimg"  style="color: black;font-family:Times New Roman;font-size: 25px;">The Informatives</p>
+
+<canvas id="myCanvas" width="700" height="20" style="border:1px solid black;"></canvas></center> 
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("3d");
+ctx.font = "10px Arial";
+ctx.fillText("Informing since 1879",50, 50);
+</script>
+<br>
+<div class="container">
+<article>
+ <p><h4>TCyclone Tauktae live updates: Weakened cyclone moves north, Delhi-NCR braces for rain</h4>
+ The landfall process of the eye of extremely severe cyclonic storm Tauktae, which hit the Gujarat coast in Saurashtra region between Diu and Una, ended around midnight, the India Meteorological Department said on Tuesday. State officials said there are no reports of any casualty due to the tropical storm 'Tauktae' (pronounced as Tau'Te), adding it has weakened. The IMD also announced that the cyclone has weakened into a 'very severe cyclonic storm' from the 'extremely severe cyclonic storm'. Stay with TOI for latest updates. </p>
+ <p><h4>Covid-19: Didn't export vaccines at the cost of the people in India, says Adar Poonawalla</h4>
+ Serum Institute of India CEO Adar Poonawalla on Tuesday issued a statement saying that the company has not exported Covid-19 vaccines at the cost of the people of India.
+Poonawalla said the vaccination drive for such a large population cannot be completed within 2-3 months and it would take 2-3 years for the entire world population to get fully vaccinated.</p>
+
+</body>
+</html>
