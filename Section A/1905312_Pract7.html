@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 7</title>
+    <link rel="stylesheet" href="./Practical-7.css" />
+  </head>
+  <body>
+    <div class="contact-title">
+      <h1>Welcome To This Website</h1>
+      <h2>We Are Happy To Help You</h2>
+    </div>
+
+    <div class="contact-form">
+      <form action="Practical-7.php" method="POST" id="contact-form">
+        <input
+          type="text"
+          name="name"
+          class="form-control"
+          placeholder="Your Name"
+          required
+        />
+        <br />
+        <input
+          type="email"
+          name="email"
+          class="form-control"
+          placeholder="Your Email"
+          required
+        />
+        <br />
+        <textarea
+          name="message"
+          class="form-control"
+          placeholder="Message"
+          rows="4"
+          required
+        ></textarea>
+        <br />
+        <input type="submit" class="form-control submit" value="Send message" />
+      </form>
+    </div>
+  </body>
+</html>
+
+
+
+ 
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: rgb(34, 36, 0);
+  background: linear-gradient(
+    215deg,
+    rgba(34, 36, 0, 1) 6%,
+    rgba (9, 121, 118, 1) 51%,
+    rgba 132, 0, 255, 1) 86%
+  );
+  background-repeat: no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.contact-title {
+  margin-top: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+.contact-title h2 {
+  font-size: 16px;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #333;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form. submit: hover {
+  background-color: #f44;
+  cursor: pointer;
+}
+
+
+<?php
+    $name=$_POST['name'];
+    $visitor_email=$_POST['email'];
+    $message=$_POST['message'];
+
+    $email_from='astha1921016@gndec.ac.in';
+    $email_subject="New Form Submission";
+    $email_body="User Name: $name.\n"."User Email: $visitor_email.\n"."User Message: $message.\n";
+    $to="kumarsharan1165@gmail.com";
+    $headers="From: $email_from \r\n";
+    $headers .="Reply-To: $visitor_email \r\n";
+    mail ($to, $email_subject, $email_body, $headers);
+    header("Location: Practical-7.html");
+?>
