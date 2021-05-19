@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+        <link rel="stylesheet" href="4th.css">
+        <style>
+            .internal{
+                color: orangered;
+                background-color: turquoise;
+                font-size: 60px;
+            }            
+            #inter{
+                text-align: left;
+                font-family: arial;
+                font-size: 40px;
+                color: #0cbac7;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: rgb(228, 68, 161); font-size:70px; text-align:center;background-color: rgb(2, 71, 39);" >Use of Inline CSS</h1>
+        
+        <p style="font-size: 25px; color: slategrey; text-align: right;font-family: fantasy;">
+            An inline style may be used to apply a unique style for a single element.
+            To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.        
+        </p>
+
+        <h1 class="internal">Internal CSS</h1>
+        <p id="inter">
+            An internal style sheet may be used if one single HTML page has a unique style.
+            The internal style is defined inside the <'style> element, inside the head section.
+        </p>
+
+        <h1 class="external">External CSS</h1>
+        <p id="exter">With an external style sheet, you can change the look of an entire website by changing just one file!
+
+            Each HTML page must include a reference to the external style sheet file inside the <'link> element, inside the head section.
+        </p>
+
+    </body>
+</html>

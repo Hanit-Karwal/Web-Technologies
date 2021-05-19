@@ -1,0 +1,17 @@
+*{
+    background-color:lemonchiffon;
+}
+
+.external{
+    color:rgb(6, 99, 48);
+    background-color: rgb(226, 148, 236);
+    text-align: right;
+    font-size: 100px;
+    font-family: arial;
+}
+#exter{
+    color:rgb(179, 141, 39);
+    text-align:center;
+    font-size: 40px;
+    font-family: cursive;
+}
