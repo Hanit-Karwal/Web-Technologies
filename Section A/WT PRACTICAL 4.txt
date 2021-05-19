@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head> <title> Internal CSS</title>
+<style>
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+.p1 {
+color: teal;
+font-size: 20px;
+
+}
+.p2{
+color: black;
+text-align:left;
+font-family: "Times New Roman", Times, serif;
+font-size: 25px;
+}
+
+a {
+color: red;
+ font-family: "Lucida Console", "Courier New", monospace;
+}
+div {
+ border-style: double;
+ margin: 25px 50px 25px;
+ background-color: LightBlue;
+font-family:"Footlight MT Light";
+}
+</style>
+</head>
+<body>
+
+<h1><div>COVID-19: The Impact and Role of Mass Media during the Pandemic</div></h1>
+
+<p class="p1"> <i>
+“With 267k cases India becomes the 5th country to have the largest covid-19 cases in world wide” “Trump still holds china responsible for the outbreak of novel corona virus and demands answers” </i> </p>
+
+<p class="p2"> 
+These are some of the headlines we come across these days. Be it news, social media or newspapers, covid 19 has gained a column there. In these times, when we are confined within the four walls of our homes and most of lives have come to a halt, one thing that still has its wheels going on is mass media. It is the primary means of communication used to reach the vast majority of general public. People typically rely on the mass media to get information regarding political, cultural, social, and technological issues. Mass media holds the social, legal and ethical responsibilities in society and in a situation like this, the pandemic COVID-19, which questions the human existence, role and impact of mass media multiplies. Media acts as a mirror to the society: informative and reflective. <br>
+It also plays a significant role in health communication by informing and updating us about the virus, its symptoms, precautions to be taken. Through sources like running adds, caller tunes and experts’ interviews it has repeatedly reminded us of the consequences and preventive measures. Comparing what the world knew about the virus when the first ever case was reported by WHO to what we know now, there is a significant addition and the credit goes to the mass media. 
+</p>
+<hr>
+To read more about Covid19 and related news click <a href= news.html> here</a>
+
+</body>
+</html>

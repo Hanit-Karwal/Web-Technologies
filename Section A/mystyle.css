@@ -1,0 +1,30 @@
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+.p1 {
+color: teal;
+font-size: 20px;
+
+}
+.p2{
+color: black;
+text-align:left;
+font-family: "Times New Roman", Times, serif;
+font-size: 25px;
+}
+
+a {
+color: red;
+ font-family: "Lucida Console", "Courier New", monospace;
+}
+div {
+ border-style: double;
+ margin: 25px 50px 25px;
+ background-color: LightBlue;
+font-family:"Footlight MT Light";
+}
