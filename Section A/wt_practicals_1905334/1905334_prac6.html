@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap framework</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .row.content {height: 1500px}
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>KAIR's Blog</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="#section2">Friends</a></li>
+        <li><a href="#section3">Family</a></li>
+        <li><a href="#section3">Photos</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span><br>
+      </div><img src="food.jpg">
+    </div>
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>I Love Food</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, Sep 27, 2015.</h5>
+      <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
+      <p>There's nothing better than having your whole family home around the same table for dinner. Food is a catalyst that brings people together. Having the entire family together at your grandparents' house for Christmas Eve dinner or a Thanksgiving meal, treating a friend to a birthday dinner, or annual family celebrations are perfect ways to keep in touch and connect with your family and friends that you might not see regularly.</p>
+      <br><br>
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>food is fun to make</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by John Doe, Sep 24, 2015.</h5>
+      <h5><span class="label label-success">Lorem</span></h5><br>
+      <p>Once I set my mind to making the multilayered rainbow cake I saw on Pinterest, there's no one who can stop me. Food is straight up fun to make. Getting recipes online, inspo from Pinterest pages, watching Barefoot Contessa on the Food Network, or even making your family's traditional Christmas cookie recipe is so enjoyable. There's nothing more satisfying than pulling your gooey, homemade, and delicious smelling creation of out the oven and of course snapping pics to all your friends showing them how much of a chef you really are.
+	  </p>
+      <hr>
+      <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      <p><span class="badge">2</span> Comments:</p><br>
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="ava1.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Kira <small>April 29, 2021, 9:12 PM</small></h4>
+          <p>Keep up the GREAT work! I am cheering for your blog channel.</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="ava2.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>John Row <small>April 25, 2021, 8:25 PM</small></h4>
+          <p>I am so happy for you man! Finally. I am looking forward to read about your trendy life. </p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="ava3.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>Nested Bro <small>April 25, 2021, 8:28 PM</small></h4>
+              <p>Me too! WOW!</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+</body>
+</html>
