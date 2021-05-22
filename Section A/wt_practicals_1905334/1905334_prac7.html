@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 7</title>
+    <link rel="stylesheet" href="./web.css" />
+  </head>
+  <body>
+    <div class="contact-title">
+      <h1>CUSTOMER CARE </h1>
+      <h2>Drop your queries below :)</h2>
+    </div>
+    <div class="contact-form">
+      <form action="php.php" method="POST" id="contact-form">
+        <input
+          type="text"
+          name="name"
+          class="form-control"
+          placeholder="Your Name"
+          required
+        />
+        <br />
+        <input
+          type="email"
+          name="email"
+          class="form-control"
+          placeholder="Your Email"
+          required
+        />
+        <br />
+        <textarea
+          name="query"
+          class="form-control"
+          placeholder=" Your query"
+          rows="4"
+          required
+        ></textarea>
+        <br />
+        <input type="submit" class="form-control submit" value="Send query" />
+      </form>
+    </div>
+  </body>
+</html>
+
+php file:<?php
+    $name=$_POST['name'];
+    $visitor_email=$_POST['email'];
+    $query=$_POST['query'];
+    $email_from='harkirat1921036@gndec.ac.in';
+    $email_subject="New Form Submission";
+    $email_body="User Name: $name.\n"."User Email: $visitor_email.\n"."User query: $query.\n";
+    $to="kiratubii@gmail.com";
+    $headers="From: $email_from \r\n";
+    $headers .="Reply-To: $visitor_email \r\n";
+    mail($to,$email_subject,$email_body,$headers);
+    header("Location: practical7.html");
+?>
+css file:
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background:#1affb2;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.contact-title {
+  margin-top: 100px;
+  color:black;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+.contact-title h2 {
+  font-size: 16px;
+}
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #333;
+  color:black;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+input {
+  height: 45px;
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+form .submit:hover {
+  background-color: grey;
+  cursor: pointer;
+}
