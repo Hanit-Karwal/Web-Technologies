@@ -1,0 +1,563 @@
+PRACTICAL NO. 1
+EXP- Create a simple web page by writing HTML using a simple text editor, Notepad. Demonstrate the 
+following components of the web page: 
+ Page titles and Headings 
+ Paragraphs and Inline images
+CODE
+<!DOCTYPE html>
+<html>
+<head>
+ <title>GURU NANAK DEV ENGINEERING COLLEGE LUDHIANA</title>
+</head>
+<h1>GNDEC</h1>
+<font color="blue" face="Times New Roman"><p><B>Guru Nanak Dev Engineering College (GNDEC or 
+GNE Ludhiana)</B> is one of the oldest engineering institutions of the northern region situated at Gill 
+Park, Ludhiana, Punjab, India. <br>The foundation stone of the college was laid on 8th April 1956 by Hon'ble Dr. Rajendra Prasad, the first President of India. The college has been named after 1st Sikh Guru 
+Guru Nanak Dev Ji<font color="pink">.</font></p>
+<h1><font color="black">CAMPUS</h1>
+<font color="grey" face="Times New Roman"><p>College campus is spread over 86 acre of beautiful and 
+lush green area which is about 5 km from Bus Stand and 8 km from Ludhiana Railway Station on 
+<B>Ludhiana–Malerkotla Road</B> <br>Campus has various amenities such as college building, 
+Auditorium, Girls & Boys hostels, Swimming pool, Sports and Gymnasium Hall Complex, Gurudwara 
+Sahib, Bank branch, Dispensery, Post Office and Open Air Theatre.</p>
+<img src="http://gndec.ac.in/~icraect2016/images/logo.jpg" alt"GNDEC Logo" width="250" />
+</body>
+</html>
+
+PRACTICAL NO. 2
+EXP- Demonstrate the use of Links, Lists and Tables in HTML. You should be able to link Scheme-2018 
+B.Tech (IT) .separate pages and create named links within a document, using them to build a “table of 
+contents”.CODE
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table,th,td {
+ border: 1px solid black;
+ background-color: #f5f5f5;
+}
+</style>
+<title>Links, Lists and Tables</title>
+</head><body>
+<h1>GURU NANAK DEV ENGINEERING COLLEGE</h1>
+<p><b>Guru Nanak Dev Engineering college has a lot of branches like Computer science department , 
+Information Technology Department and Production Enginering deparment.</p>
+<table>
+ <tr>
+ <th>Departments</th>
+ <th>Head of Department</th>
+ <th>Information</th>
+ </tr>
+ <tr>
+ <td>Computer science</td>
+ <td>Dr. Parminder Singh</td>
+ <td><a href="file:///C:/Users/Lenovo/Desktop/computer%20science.html">Computer 
+science</a></td>
+ </tr>
+ <tr>
+ <td>Information Technology</td> <td>Dr. Kiran Jyoti</td>
+ <td><a href="file:///C:/Users/Lenovo/Desktop/information%20technology.html">Information 
+Technology</a></td>
+ </tr>
+<tr>
+ <td>CIVIL Engineering</td>
+ <td>Dr. J.S. Grewal</td>
+ <td><a href="file:///C:/Users/Lenovo/Desktop/production%20engineering.html">CIVIL 
+Engineering</a></td>
+ </tr>
+</table>
+<h2>SUBJECTS OF COMPUTER SCIENCE</h2>
+<ul>
+ <li>PPLE</li>
+ <li>CPP</li>
+ <li>DATA STRUCTURES</li>
+</ul>
+<h2>SUBJECTS OF INFORMATION TECHNOLOGY</h2><ol>
+ <li>DCLD</li>
+ <li>DCCN</li>
+ <li>DBMS</li>
+</ol>
+<h2>SUBJECTS OF CIVIL ENGINEERING</h2>
+<ol>
+ <li>ED</li>
+ <li>PHYSICS</li>
+ <li>MATHS</li>
+</ol>
+</body>
+</html>
+
+
+ PRACTICAL NO. 3
+EXP- Create simple Forms in HTML and demonstrate the use of various form elements like input box, 
+textarea, submit and radio buttons etc.
+CODE
+<!DOCTYPE html>
+<head></head>
+<body>
+<center>
+<form>
+<pre>
+<form action method="post" enctype="multipart/form-data">
+Languages <input list="languages" name="languages">
+<datalist id="languages">
+<option value="English"><option value="French">
+<option value="Chinese">
+<option value="Hindi">
+<option value="Urdu">
+</datalist>
+Department <input type="textbox"name="Department"
+required=’required’/><br>
+Roll number<input type="textbox"name="Roll Number"><br>
+Name <input type="textbox"name="Name"/><br>
+D.O.B <input type="date" name="bday" min="2000-01-02">
+<input type="radio" id="male" name="gender" value="male">
+ <label for="male">Male</label>
+ <input type="radio" id="female" name="gender" value="female">
+ <label for="female">Female</label>
+ <input type="radio" id="other" name="gender" value="other">
+ <label for="other">Other</label><br>
+<input type="checkbox" id="hobby1" name="dancing" value="dancing"> <label for="hobby1"> I like dancing</label>
+ <input type="checkbox" id="hobby2" name="singing" value="singing">
+ <label for="hobby2"> I like singing</label>
+ <input type="checkbox" id="hobby3" name="cricket" value="cricket">
+ <label for="hobby3"> I like cricket</label>
+Password <input type="Password"
+placeholder="atleast 3 characters"><br>
+Email <input type="Email"
+autofocus><br>
+<input type="Submit" name="Sub" Value="Submit"
+formaction=’url.php’/>
+<textarea name="message" rows="10" cols="10">
+thank you for providing this useful information
+</textarea>
+</form>
+</center>
+</body>
+</html>
+
+ PRACTICAL NO. 4
+EXP. Demonstrate the use of cascading style sheets (CSS) (inline, internal and external) to specify various 
+aspects of style, such as colours and text fonts and sizes, in HTML document.
+CODE
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="styles.css">
+<style>
+#example1 {
+background-color:#FAF0E6;
+padding:250px;
+border-radius:50px;
+}pre
+{
+text-shadow: 2px 2px 5px blue;
+font-size:75px;
+font-style:italic;
+}
+</style>
+</head>
+<body>
+<div id="example1">
+<h1> BIRD OF INDIA</h1>
+<pre> Peacock
+symbolizes
+New Beginnings
+And
+Eternal Life</pre><h2 style="color:blue;">TRY TO PROTECT THEM </h2>
+</body>
+</html> 
+PRACTICAL NO. 5
+EXP. Creation of Web pages using HTML5 and CSS3.
+CODE
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+ <title>Simple web Development Template</title>
+ 
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ }
+  .navbar {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: sticky;
+ top: 0;
+ cursor: pointer;
+ }
+ 
+ .background {
+ background: black;
+ background-blend-mode: darken;
+ background-size: cover;
+ }
+ 
+ .nav-list {
+ width: 70%;
+ display: flex; align-items: center;
+ }
+ 
+ .logo {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ 
+ .logo img {
+ width: 180px;
+ border-radius: 50px;
+ }
+ 
+ .nav-list li {
+ list-style: none;
+ padding: 26px 30px;
+ } 
+ .nav-list li a {
+ text-decoration: none;
+ color: white;
+ }
+ 
+ .nav-list li a:hover {
+ color: grey;
+ }
+ 
+ .rightnav {
+ width: 30%;
+ text-align: right;
+ }
+ 
+ #search {
+ padding: 5px;
+ font-size: 17px; border: 2px solid grey;
+ border-radius: 9px;
+ }
+ 
+ .firstsection {
+ background-color: green;
+ height: 400px;
+ }
+ 
+ .secondsection {
+ background-color: blue;
+ height: 400px;
+ }
+ 
+ .box-main {
+ display: flex;
+ justify-content: center;
+ align-items: center; color: black;
+ max-width: 80%;
+ margin: auto;
+ height: 80%;
+ }
+ 
+ .firsthalf {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ }
+ 
+ .secondhalf {
+ width: 30%;
+ }
+ 
+ .secondhalf img { width: 70%;
+ border: 4px solid white;
+ border-radius: 150px;
+ display: block;
+ margin: auto;
+ }
+ 
+ .text-big {
+ font-family: 'Piazzolla', serif;
+ font-weight: bold;
+ font-size: 35px;
+ }
+ 
+ .text-small {
+ font-size: 18px;
+ }
+ 
+ .btn { padding: 8px 20px;
+ margin: 7px 0;
+ border: 2px solid white;
+ border-radius: 8px;
+ background: none;
+ color: white;
+ cursor: pointer;
+ }
+ 
+ .btn-sm {
+ padding: 6px 10px;
+ vertical-align: middle;
+ }
+ 
+ .section {
+ height: 400px;
+ display: flex;
+ align-items: center; justify-content: center;
+ max-width: 90%;
+ margin: auto;
+ }
+ 
+ .section-Left {
+ flex-direction: row-reverse;
+ }
+ 
+ .paras {
+ padding: 0px 65px;
+ }
+ 
+ .thumbnail img {
+ width: 250px;
+ border: 2px solid black;
+ border-radius: 26px;
+ margin-top: 19px; }
+ 
+ .center {
+ text-align: center;
+ }
+ 
+ .text-footer {
+ text-align: center;
+ padding: 30px 0;
+ font-family: 'Ubuntu', sans-serif;
+ display: flex;
+ justify-content: center;
+ color: white;
+ }
+ </style>
+</head>
+ 
+<body> <nav class="navbar background">
+ <ul class="nav-list">
+ <div class="logo">
+ <img src= "logo.png">
+ </div>
+ <li><a href="#web">Web Technology</a></li>
+ <li><a href="#program">C Programming</a></li>
+ <li><a href="#course">Courses</a></li>
+ </ul>
+ 
+ <div class="rightNav">
+ <input type="text" name="search" id="search">
+ <button class="btn btn-sm">Search</button>
+ </div>
+ </nav>
+ 
+ <section class="firstsection">
+ <div class="box-main"> <div class="firstHalf">
+ <h1 class="text-big" id="web">Web Technology</h1>
+ <p class="text-small">
+ HTML stands for HyperText Markup Language.
+ It is used to design web pages using a markup
+ language. HTML is the combination of Hypertext
+ and Markup language. Hypertext defines the
+ link between the web pages. A markup language
+ is used to define the text document within tag
+ which defines the structure of web pages.
+ HTML is a markup language that is used by the
+ browser to manipulate text, images, and other
+ content to display it in the required format.
+ </p>
+ </div>
+ </div>
+ </section>
+  <section class="secondsection">
+ <div class="box-main">
+ <div class="firstHalf">
+ <h1 class="text-big" id="program">
+ C Programming
+ </h1>
+ <p class="text-small">
+ C is a procedural programming language. It
+ was initially developed by Dennis Ritchie
+ as a system programming language to write
+ operating system. The main features of C
+ language include low-level access to memory,
+ simple set of keywords, and clean style,
+ these features make C language suitable for
+ system programming like operating system or
+ compiler development.
+ </p>
+ </div> </div>
+ </section>
+ 
+ <section class="section">
+ <div class="paras">
+ <h1 class="sectionTag text-big">Java</h1>
+ 
+ <p class="sectionSubTag text-small">
+ Java has been one of the most popular
+ programming language for many years.
+ Java is Object Oriented. However it is
+ not considered as pure object oriented
+ as it provides support for primitive
+ data types (like int, char, etc) The
+ Java codes are first compiled into byte
+ code (machine independent code). Then
+ the byte code is run on Java Virtual
+ Machine (JVM) regardless of the underlying architecture.
+ </p>
+ </div>
+ 
+ <div class="thumbnail">
+ <img src= "img.png" alt="laptop image">
+ </div>
+ </section>
+ 
+ <footer class="background">
+ <p class="text-footer">
+ Copyright ©-All rights are reserved
+ </p>
+ </footer>
+</body>
+ 
+</html>
+
+ PRACTICAL NO. 6
+EXP. Demonstrate the use of bootstrap framework
+CODE
+<!DOCTYPE html>
+<html lang="en"><head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href=styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form action="" method="post">
+<form class="form-signin">
+<div class="container-fluid">
+<div class="row">
+<h2 class="form-signin-heading">Please sign in</h2>
+<div class="col-sm-4" style="&nbsp"></div>
+<div class="col-sm-4"><input type="text" id="u1" placeholder="username"
+required class="form-control"/></div>
+<div class="col-sm-4" style="&nbsp"></div></div>
+<div class="row">
+<div class="col-sm-4" style="&nbsp"></div>
+<div class="col-sm-4"><input type="password" id="p1" placeholder="Password"
+required class="form-control"/></div>
+<div class="col-sm-4" style="&nbsp"></div>
+<button class="btn btn-lg btn-primary" type="submit">Sign in</button>
+</div>
+</form>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#s1").click(function(){
+var u1=$("#u1").val();
+var p1=$("#p1").val();
+if($("u1").val()==null||$("p1").val()==null)
+alert("please fill out this field");else if( $theForm.valid() ) {
+$theForm.submit();
+}
+});
+});
+</script>
+</html>
+
+
+ PRACTICAL NO. 7EXP. Creating a web page using php
+CODE
+<?php
+/* Create simple Website with PHP - https://coursesweb.net/php-mysql/ */
+// create an array with data for title, and meta, for each page
+$pgdata = array();
+$pgdata['index'] = array(
+'title'=>'Title for Home page',
+'description'=>'Here add the description for Home page',
+'keywords'=>'meta keywords, for, home page'
+);
+$pgdata['about_me'] = array(
+'title'=>'Title for About Me page',
+'description'=>'Description for About Me, https://coursesweb.net',
+'keywords'=>'about me, https://coursesweb.net'
+);
+$pgdata['images'] = array('title'=>'Title for Images',
+'description'=>'Here add the description for the page with images',
+'keywords'=>'images, pictures, photo'
+);
+// set the page name
+$pgname = isset($_GET['pg']) ? trim(strip_tags($_GET['pg'])) : 'index';
+// get title, and meta data for current /accessed page
+$title = $pgdata[$pgname]['title'];
+$description = $pgdata[$pgname]['description'];
+$keywords = $pgdata[$pgname]['keywords'];
+// set header for utf-8 encode
+header('Content-type: text/html; charset=utf-8');
+?>
+<!doctype html>
+<html><head>
+<meta charset="utf-8" />
+<title><?php echo $title; ?></title>
+<meta name="description" content="<?php echo $description; ?>" />
+<meta name="keywords" content="<?php echo $keywords; ?>" />
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<style><!--
+body {
+margin:0;
+text-align:center;
+padding:0 1em;
+}
+header, footer, section, aside, nav, article { display: block; }
+#posts{
+position:relative;
+width:99%;
+margin:0.5em auto;
+background:#fdfefe;}
+#menu {
+float:left;
+width:15em;
+margin:0 auto;
+background:#f8f9fe;
+border:1px solid blue;
+text-align:left;
+}
+#menu li a:hover {
+text-decoration:none;
+color:#01da02;
+}
+#article {
+margin:0 1em 0 16em;
+background:#efeffe;
+border:1px solid #01da02;
+padding:0.2em 0.4em;}
+#footer {
+clear:both;
+position:relative;
+background:#edfeed;
+border:1px solid #dada01;
+width:99%;
+margin:2em auto 0.5em auto;
+}
+--></style>
+</head>
+<body>
+<header id="header">
+<h1><?php echo $title; ?></h1>
+</header>
+<section id="posts"><nav id="menu">
+<ul>
+<li><a href="index.php" title="Home page">Home</a></li>
+<li><a href="index.php?pg=about_me" title="About Me">About Me</a></li>
+<li><a href="index.php?pg=images" title="Images">Images</a></li>
+</ul>
+</nav>
+<article id="article"><?php echo file_get_contents('pages/'. $pgname. '.htm'); ?></article>
+</section>
+<footer id="footer">
+<p>From: <a href="https://coursesweb.net/php-mysql/" title="Free PHP-MySQL course">PHP-MySQL 
+Course</a></p>
+</footer>
+</body>
+</html>
