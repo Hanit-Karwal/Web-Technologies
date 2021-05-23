@@ -10,9 +10,9 @@
             <div class="logo">
                 <img src= "logo.png">
             </div>
-            <li><a href="#web">Web Technology</a></li>
-            <li><a href="#program">C Programming</a></li>
-            <li><a href="#course">Courses</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#departments">Departments</a></li>
+            <li><a href="#campus">Campus</a></li>
         </ul>
   
         <div class="rightNav">
@@ -20,22 +20,23 @@
             <button class="btn btn-sm">Search</button>
         </div>
     </nav>
-  
+    
+    <h1>Guru Nanak Dev Engineering College, Ludhiana</h1>
     <section class="firstsection">
         <div class="box-main">
             <div class="firstHalf">
-                <h1 class="text-big" id="web">Web Technology</h1>
+                
+                <h1 class="text-big" id="web">About us</h1>
                 <p class="text-small">
-                    HTML stands for HyperText Markup Language.
-                    It is used to design web pages using a markup
-                    language. HTML is the combination of Hypertext
-                    and Markup language. Hypertext defines the
-                    link between the web pages. A markup language
-                    is used to define the text document within tag
-                    which defines the structure of web pages.
-                    HTML is a markup language that is used by the
-                    browser to manipulate text, images, and other
-                    content to display it in the required format.
+                    Guru Nanak Dev Engineering College, one of the prestigious, 
+                    oldest and minority institution of Northern India, was established
+                     under the aegis of Nankana Sahib Education Trust (NSET) in 1956. 
+                     NSET was founded in memory of the most sacred temple of Nankana Sahib, 
+                     birth place of Guru Nanak Dev Ji. Shiromani Gurudwara Prabandhak Committee, 
+                     Amritsar, a premier organization of universal brotherhood, which is the
+                      main force behind the mission of "Removal of Economic Backwardness 
+                      through Technology" and NSET with the same mission, established a 
+                      Polytechnic in 1953 and Guru Nanak Dev Engineering College (GNDEC) in 1956.
                 </p>
             </div>
         </div>
@@ -45,18 +46,13 @@
         <div class="box-main">
             <div class="firstHalf">
                 <h1 class="text-big" id="program">
-                    C Programming
+                   Departments
                 </h1>
                 <p class="text-small">
-                    C is a procedural programming language. It
-                    was initially developed by Dennis Ritchie
-                    as a system programming language to write
-                    operating system. The main features of C
-                    language include low-level access to memory,
-                    simple set of keywords, and clean style,
-                    these features make C language suitable for
-                    system programming like operating system or
-                    compiler development.
+                   There are different departments such as:
+                   Applied Science, Computer Science, Electrical, 
+                   <br>Mechanical, Electronics,BCA, MBA, MCA........
+
                 </p>
             </div>
         </div>
@@ -64,20 +60,21 @@
   
     <section class="section">
         <div class="paras">
-            <h1 class="sectionTag text-big">Java</h1>
+            <h1 class="sectionTag text-big">Campus</h1>
   
             <p class="sectionSubTag text-small">
-                Java has been one of the most popular
-                programming language for many years.
-                Java is Object Oriented. However it is
-                not considered as pure object oriented
-                as it provides support for primitive
-                data types (like int, char, etc) The
-                Java codes are first compiled into byte
-                code (machine independent code). Then
-                the byte code is run on Java Virtual
-                Machine (JVM) regardless of the
-                underlying architecture.
+                Guru Nanak Dev Engineering College campus is spread over 86
+                 acres of prime land about 5 Kms from Bus Stand and 8 Kms 
+                 from Ludhiana Railway Station on Ludhiana-Malerkotla Road.
+                  The college campus is well planned with beautifully laid out 
+                  tree plantation,pathways,flowerbeds besides the well maintained
+                   sprawling lawns all around. It has beautiful building for College, 
+                   Hostels, Swimming Pool, Sports and Gymnasium Hall Complex, 
+                   Gurduwara Sahib, Bank, Dispensery, Post Office, Open Air Theatre. 
+                   There are three hostels for boys and one for girls with a total 
+                   accomodation of about 1200 students.These hostels are provided with
+                    all amenities and basic services.The greenery of the campus is
+                     remarkable and special care is being taken to preserve it.
             </p>
         </div>
 
