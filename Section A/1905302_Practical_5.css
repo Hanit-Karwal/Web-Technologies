@@ -1,0 +1,29 @@
+.signinbox{
+	background-image:url('bg3.jpg');
+	background-size:cover;
+	width:500px;
+	height:300px;
+	border-radius:15px;
+	
+}
+.a{
+	text-align:center;
+	font-size:30px;
+	position:center;
+	border-radius:20px;
+	border-style:none;
+}
+.b{
+	font-size:25px;
+	border-radius:10px;
+	font-family:cursive;
+	font-weight:bold;
+	color:white;
+	background-color:rgb(125,155,200);
+	border-style:none;
+}
+h3{
+	text-align:center;
+	text-decoration:underline;
+}
+	
